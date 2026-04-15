@@ -1,6 +1,6 @@
 # DevOps Documentation & Notes
 
-Live site: [https://ankitlabz.github.io/](https://ankitlabz.github.io/) · Portfolio: [https://ankitlabz.github.io/portfolio/#/](https://ankitlabz.github.io/portfolio/#/)
+Live site: [https://ankitlabz.github.io/](https://ankitlabz.github.io/)
 
 Welcome to my collection of notes and documentation related to my work and learning in the DevOps field. This repository contains resources, tutorials, and insights on various tools, technologies, and best practices I have encountered during my DevOps journey.
 
