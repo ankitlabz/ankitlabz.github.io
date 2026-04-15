@@ -1,3 +1,19 @@
 {
-  "index": "Introduction"
+  "index": "Introduction",
+  "---": {
+    "type": "separator",
+    "title": "Elsewhere"
+  },
+  "portfolio": {
+    "title": "Portfolio ↗",
+    "type": "page",
+    "href": "https://ankitlabz.github.io/portfolio/#/",
+    "newWindow": true
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://ankitlabz.github.io/portfolio/#/contact",
+    "newWindow": true
+  }
 }
