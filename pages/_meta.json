@@ -1,15 +1,15 @@
 {
   "index": "Introduction",
-  "about": {
-    "title": "About",
+  "portfolio": {
+    "title": "Portfolio ↗",
     "type": "page",
-    "href": "https://manish.kr",
+    "href": "https://ankitlabz.github.io/portfolio/#/",
     "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://manish.kr/#/contact",
+    "href": "https://ankitlabz.github.io/portfolio/#/contact",
     "newWindow": true
   }
 }

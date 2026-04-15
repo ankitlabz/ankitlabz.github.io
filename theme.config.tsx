@@ -1,17 +1,45 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
+const repo = 'https://github.com/ankitlabz/ankitlabz.github.io'
+const portfolioUrl = 'https://ankitlabz.github.io/portfolio/#/'
+
 const config: DocsThemeConfig = {
-  logo: <span>Docs</span>,
+  logo: <span>Ankit · DevOps notes</span>,
   project: {
-    link: 'https://github.com/manishdotkr',
+    link: repo,
   },
-  docsRepositoryBase: 'https://github.com/manishdotkr/docs',
+  docsRepositoryBase: `${repo}/tree/main`,
   footer: {
-    text: 'Nextra Docs Template',
+    text: (
+      <span>
+        Ankit Pandey —{' '}
+        <a href={portfolioUrl} style={{ textDecoration: 'underline' }}>
+          Portfolio
+        </a>
+        {' · '}
+        <a href={repo} style={{ textDecoration: 'underline' }}>
+          GitHub
+        </a>
+      </span>
+    ),
+  },
+  navbar: {
+    extraContent: (
+      <>
+        <a
+          href={portfolioUrl}
+          target="_blank"
+          rel="noreferrer"
+          style={{ fontWeight: 600 }}
+        >
+          Portfolio ↗
+        </a>
+      </>
+    ),
   },
   sidebar: {
-    defaultMenuCollapseLevel: 1, // Set to 1 to collapse all by default
+    defaultMenuCollapseLevel: 1,
     titleComponent: ({ title, type }) => <>{title}</>,
   },
 }

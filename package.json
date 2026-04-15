@@ -1,8 +1,8 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "description": "A Project For Storing Docs",
-  "homepage": "https://docs.manish.kr",
+  "description": "DevOps documentation and notes (GitHub Pages)",
+  "homepage": "https://ankitlabz.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manishdotkr/docs.git"
+    "url": "git+https://github.com/ankitlabz/ankitlabz.github.io.git"
   },
-  "author": "Manish <manishdotkr@gmail.com>",
+  "author": "Ankit Pandey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/manishdotkr/docs/issues"
+    "url": "https://github.com/ankitlabz/ankitlabz.github.io/issues"
   },
   "dependencies": {
     "next": "^13.5.7",
