@@ -2,8 +2,8 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const repo = 'https://github.com/ankitlabz/ankitlabz.github.io'
-const portfolio = 'https://ankitlabz.github.io/portfolio/#/'
-const contact = 'https://ankitlabz.github.io/portfolio/#/contact'
+const aboutUrl = 'https://ankitlabz.github.io/portfolio/#/'
+const contactUrl = 'https://ankitlabz.github.io/portfolio/#/contact'
 
 const navLinkStyle: React.CSSProperties = {
   fontWeight: 500,
@@ -24,13 +24,13 @@ const config: DocsThemeConfig = {
         <span aria-hidden style={{ opacity: 0.35 }}>
           ·
         </span>
-        <a href={portfolio} target="_blank" rel="noreferrer" style={navLinkStyle}>
-          Portfolio
+        <a href={aboutUrl} target="_blank" rel="noreferrer" style={navLinkStyle}>
+          About
         </a>
         <span aria-hidden style={{ opacity: 0.35 }}>
           ·
         </span>
-        <a href={contact} target="_blank" rel="noreferrer" style={navLinkStyle}>
+        <a href={contactUrl} target="_blank" rel="noreferrer" style={navLinkStyle}>
           Contact
         </a>
         <span aria-hidden style={{ opacity: 0.35 }}>
@@ -40,27 +40,6 @@ const config: DocsThemeConfig = {
           GitHub
         </a>
       </span>
-    ),
-  },
-  navbar: {
-    extraContent: (
-      <nav
-        aria-label="Profile links"
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '0.75rem',
-          fontSize: '0.8125rem',
-        }}
-      >
-        <a href={portfolio} target="_blank" rel="noreferrer" style={navLinkStyle}>
-          Portfolio ↗
-        </a>
-        <span style={{ opacity: 0.25, userSelect: 'none' }}>|</span>
-        <a href={contact} target="_blank" rel="noreferrer" style={navLinkStyle}>
-          Contact ↗
-        </a>
-      </nav>
     ),
   },
   sidebar: {

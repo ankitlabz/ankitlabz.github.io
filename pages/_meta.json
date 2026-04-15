@@ -4,14 +4,14 @@
     "type": "separator",
     "title": "Elsewhere"
   },
-  "portfolio": {
-    "title": "Portfolio ↗",
+  "about": {
+    "title": "About",
     "type": "page",
     "href": "https://ankitlabz.github.io/portfolio/#/",
     "newWindow": true
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Contact",
     "type": "page",
     "href": "https://ankitlabz.github.io/portfolio/#/contact",
     "newWindow": true
